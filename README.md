@@ -12,12 +12,13 @@ In the evaluations, we used Cuda 11.0 with the following list of dependencies:
 
 
 ## Datasets
+- For dataset and backbone specification please see table 1 of our [supp. mat.]([http://www.vision.caltech.edu/datasets/cub_200_2011/](https://openaccess.thecvf.com/content/CVPR2022/supplemental/Afrasiyabi_Matching_Feature_Sets_CVPR_2022_supplemental.pdf)
 - Download the CUB dataset from [the project webpage](http://www.vision.caltech.edu/datasets/cub_200_2011/)
 - Copy the dataset to "./benchmarks/cub/"
 - In the "./benchmarks/cub/" directory, run cub <code>traintestval.py</code>: python cub traintestval.py
 - Feel free to copy your dataset in the benchmarks directory change and specify the directory from <code>args.py</code>
 
-## Train 
+## Train & Test 
  - Go to the main **directory** and run <code>main.py</code>: python main.py
 
 
