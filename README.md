@@ -7,7 +7,12 @@ This repository is goining to contain the pytorch implementation of Matching Fea
  
 ## Dependencies
 In the evaluations, we used Cuda 11.0 with the following list of dependencies:
-• Python 3.8.10; • Numpy 1.21.2; • PyTorch 1.9.1+cu111; • Torchvision 0.10.1; • PIL 7.0.0; • Einops 0.3.0.
+• Python 3.8.10; 
+• Numpy 1.21.2; 
+• PyTorch 1.9.1+cu111; 
+• Torchvision 0.10.1; 
+• PIL 7.0.0; 
+• Einops 0.3.0.
 
 
 
