@@ -6,32 +6,32 @@ This repository is goining to contain the pytorch implementation of Matching Fea
  
  
 ## Dependencies
-1. Numpy
-2. Pytorch 1.0.1+ 
-3. Torchvision 0.2.1+
-4. PIL
+In the evaluations, we used Cuda 11.0 with the following list of dependencies:
+• Python 3.8.10; • Numpy 1.21.2; • PyTorch 1.9.1+cu111; • Torchvision 0.10.1; • PIL 7.0.0; • Einops 0.3.0.
 
-
-## Train 
- under construction
 
 
 ## Datasets
-- Download ... (under construction)
+- Download the CUB dataset from [the project webpage](http://www.vision.caltech.edu/datasets/cub_200_2011/)
+- Copy the dataset to "./benchmarks/cub/"
+- In the "./benchmarks/cub/" directory, run cub <code>traintestval.py</code>: python cub traintestval.py
+- Feel free to copy your dataset in the benchmarks directory change and specify the directory from <code>args.py</code>
 
-
+## Train 
+ - Go to the main **directory** and run <code>main.py</code>: python main.py
 
 
 ## The project webpage
 Please visit [the project webpage](https://lvsn.github.io/SetFeat/) for more information.
 
+
+## 
+The code will be run with **SetFeat12** by default. Feel free to change it to **SetFeat4-64** in <code>-backbone</code> to SetFeat4 in <code>args.py</code>. 
+
 ## Citation
 </code><pre>
-@InProceedings{Afrasiyabi_2022_CVPR,
-    author    = {Afrasiyabi, Arman and Larochelle, Hugo and Lalonde, Jean-Fran{\c{c}}ois and Gagn{\'e}, Christian},
-    title     = {Matching Feature Sets for Few-shot Image Classification},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022} 
-} 
+@article{afrasiyabimatching,
+  title={Matching Feature Sets for Few-Shot Image Classification Supplementary Materials},
+  author={Afrasiyabi, Arman and Larochelle, Hugo and Lalonde, Jean-Fran{\c{c}}ois and Gagn{\'e}, Christian}
+}
 </code></pre>
