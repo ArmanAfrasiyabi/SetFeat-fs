@@ -36,8 +36,11 @@ The code will be run with SetFeat12* by default. Feel free to change it to **Set
 
 ## Citation
 </code><pre>
-@article{afrasiyabimatching,
-  title={Matching Feature Sets for Few-Shot Image Classification Supplementary Materials},
-  author={Afrasiyabi, Arman and Larochelle, Hugo and Lalonde, Jean-Fran{\c{c}}ois and Gagn{\'e}, Christian}
+@inproceedings{afrasiyabi2022matching,
+  title={Matching Feature Sets for Few-Shot Image Classification},
+  author={Afrasiyabi, Arman and Larochelle, Hugo and Lalonde, Jean-Fran{\c{c}}ois and Gagn{\'e}, Christian},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9014--9024},
+  year={2022}
 }
 </code></pre>
